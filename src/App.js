@@ -27,7 +27,7 @@ function App() {
     
     <Navs title="React js tutorials"  company="The Compass"  views="20k" year="2021" button="React Js"></Navs>
     <Navs title="node js tutorials"  company="The Compass"  views="30k" year="2023" button="node Js"></Navs>
-    <Navs title="Full Stack tutorials"  company="The Compass"  views="40k" year="2022" button="Full Stack Js"></Navs>
+    <Navs title="Full Stack tutorials"  company="The Compass"  views="40k" year="2022" button="Full Stack JS"></Navs>
 
 
     

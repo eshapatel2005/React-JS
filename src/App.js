@@ -7,7 +7,7 @@ import Navs from './componets/video';
 let logo= "https://thumbs.dreamstime.com/b/sunrise-over-beach-cancun-beautiful-mexico-40065727.jpg";
 
 
-let firstName="Esha";
+let firstName="ESHA";
 let lastName="Patel";
 let age=19;
 let city="surat";
@@ -26,7 +26,7 @@ function App() {
 
     
     <Navs title="React js tutorials"  company="The Compass"  views="20k" year="2021" button="React Js"></Navs>
-    <Navs title="node js tutorials"  company="The Compass"  views="30k" year="2023" button="node Js"></Navs>
+    <Navs title="node js tutorials"  company="The Compass"  views="30k" year="2023" button="node JS"></Navs>
     <Navs title="Full Stack tutorials"  company="The Compass"  views="40k" year="2022" button="Full Stack JS"></Navs>
 
 

@@ -5,7 +5,7 @@ import './video.css';
 let Topic = "React Js";
 let bgcolor = "bg";
 let Name="The Compass";
-let Names="15k views  . 1 year age";
+let Names="16k views  . 1 year age";
 
 
 

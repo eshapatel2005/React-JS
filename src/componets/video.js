@@ -2,12 +2,17 @@ import './video.css';
 
 
 
-function video(){
+function Video(){
   return <div>Video</div>
-
 }
 
+function Thumb(){
+  return <div>Thumb</div>
+}
+
+export {Video,Thumb};
 
 
 
-export default video;
+
+export default Video;

@@ -1,11 +1,12 @@
 import './App.css';
 
-import video from './componets/video';
+import {Video,Thumb} from './componets/video';
 function app(){
   return (
     <div>
-  <div>Hello Friends</div>
-  <video></video>
+  <div>Hello Dost</div>
+  <Video></Video>
+  <Thumb></Thumb>
   </div>
   )
 }

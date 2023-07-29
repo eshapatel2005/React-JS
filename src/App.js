@@ -1,26 +1,13 @@
 import './App.css';
 
-let name = "react-app"
-function App() {
+import video from './componets/video';
+function app(){
   return (
-    <div className="App">
-      <div className="App-header">
-        Hello World
-
-
-        {name}
-        <Demo></Demo>
-        </div>
-    </div>
-  );
+    <div>
+  <div>Hello Friends</div>
+  <video></video>
+  </div>
+  )
 }
-function Demo() {
-  return (
-    <div className="App">
-      <div className="App-header">
-        This is a demo
-        </div>
-    </div>
-  );
-}
-export default App;
+
+export default app;

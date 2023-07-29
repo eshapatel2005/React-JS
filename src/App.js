@@ -4,7 +4,7 @@ import {Video,Thumb} from './componets/video';
 function app(){
   return (
     <div>
-  <div>Hello Dost</div>
+  <div>Hello Friends</div>
   <Video></Video>
   <Thumb></Thumb>
   </div>

@@ -3,7 +3,7 @@ import './video.css';
 
 
 function Video(){
-  return <div>Video</div>
+  return <div>Videos</div>
 }
 
 function Thumb(){

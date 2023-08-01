@@ -1,24 +1,17 @@
 import './video.css';
 
+export default function Navs({url,title,company,views,year,button}){
+  return(
+    <div className="container">
+    <div className="container1">
+      <img className="Imgs" src={url} />
+    </div>
+    <div className="title">{title}</div>
+    <div className="company">{company}</div>
+    <div className="views">{views} : {year}</div>
+    
+    <button class="button">{button}</button>
+    </div>
+  );
+}
 
-
-
-
-let Topic = "React Js";
-let bgcolor = "bg";
-
-function Video(){
-    return (
-    <>
-    <img src="https://www.gradschoolcenter.com/wp-content/uploads/2020/05/fig-21-05-2020_04-51-40.jpg" />
-    <div className={bgcolor} style={{backgroundColor:'red'}}>{Topic} Tutorial- Components</div>
-  </>
-)}
-
-function Thumb(){
-    return <div>Thumb</div>
-} 
-
-
-
-export  {Video,Thumb};

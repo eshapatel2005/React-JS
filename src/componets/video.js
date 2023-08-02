@@ -4,7 +4,7 @@ export default function Navs({url,title,company,views,year,button}){
   return(
     <div className="container">
     <div className="container1">
-      <img className="Imgs" src={url} />
+      <img className="Img" src={url} />
     </div>
     <div className="title">{title}</div>
     <div className="company">{company}</div>

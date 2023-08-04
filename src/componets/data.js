@@ -1,12 +1,4 @@
-import './App.css';
-
-
-import Video from './componets/Video';
-
-
-function app(){
- 
-  let video = [{
+let video = [{
     id : 1,
     title: 'React Js',
     views: '15k',
@@ -46,24 +38,13 @@ function app(){
     button:'JavaScript',
     verified: false
   }]
+
+
+
+
+
+  export default video;
+
+
+
   
-  
-
-  return (
-  <div className="app">
-    <div>Videojs</div>
-    {
-      video.map(video=><Video  key={video.id} title={video.title} views= {video.views}  year={video.year} channel={video.company} url={video.url} verified={video.verified} id={video.id} button={video.button}></Video>
-    ) 
-  }
-  </div>
-  )
-}
-
-
-
-export default app;
-
-
-
-

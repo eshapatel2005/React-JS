@@ -10,7 +10,7 @@ export default function Video({url,title,company,views,year,button,verified,id})
     {verified?<div className="title">{title} ✅</div>
     :<div className="title">{title}</div>}
     <div className="company">{company}</div>
-    <div className="views">{views} : {years}</div>
+    <div className="views">{views} : {year}</div>
     
     <button class="button">{button}</button>
     </div>

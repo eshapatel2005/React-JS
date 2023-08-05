@@ -5,7 +5,7 @@ let video = [{
     year: '1 year ago',
     company: 'The Compass',
     url: 'https://thumbs.dreamstime.com/b/man-analysis-business-accounting-laptop-45719380.jpg',
-    button:'JavaScript',
+    button:'React JS',
     verified: true
   },
   {
@@ -15,17 +15,17 @@ let video = [{
     year: '2 year ago',
     company: 'The Compass',
     url: 'https://thumbs.dreamstime.com/b/man-analysis-business-accounting-laptop-45719380.jpg',
-    button:'JavaScript',
+    button:'Node jS',
     verified: false
   },
   {
     id : 3,
-    title: 'Full Stack',
+    title: 'Full Stack Development',
     views: '15k',
-    year: '1.5 year ago',
+    year: '1.6 year ago',
     company: 'The Compass',
     url: 'https://thumbs.dreamstime.com/b/man-analysis-business-accounting-laptop-45719380.jpg',
-    button:'JavaScript',
+    button:'Full Stack Development',
     verified: true
   },
   {
@@ -40,11 +40,4 @@ let video = [{
   }]
 
 
-
-
-
   export default video;
-
-
-
-  

@@ -12,7 +12,7 @@ export default function Video({url,title,company,views,year,button,verified,id})
     <div className="company">{company}</div>
     <div className="views">{views} : {year}</div>
     
-    <button class="button">{button}</button>
+    <button class="button1">{button}</button>
     </div>
   );
 }
